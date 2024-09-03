@@ -31,7 +31,7 @@ function Navbar() {
       <div className="justify-between px-1 mx-auto lg:w-11/12 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between w-11/12 py-2 mx-auto md:block">
-            <Link href="/"><Image src={logo} alt={'Logo Eficap'} width={40} /></Link>
+            <Link href="/"><Image loading='lazy' src={logo} alt={'Logo Eficap'} width={40} /></Link>
             <div className="md:hidden">
               <button className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>
                 {navbar ? (
