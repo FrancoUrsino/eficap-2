@@ -27,7 +27,7 @@ function Trabajos() {
 
         <Card className='w-80 h-auto mx-auto flex flex-col justify-items-center bg-gray-100 border-none rounded-2xl overflow-hidden shadow-[0_15px_30px_rgba(0,0,0,0.2)] transform-gpu hover:scale-[0.98] hover:shadow-[inset_0_10px_20px_rgba(0,0,0,0.2)] transition-all duration-300'>
           <CardContent className="px-4 py-8">
-            <Image src={perf} alt='Diagnóstico y banco de sangre' width={70} className='mx-auto' />
+            <Image loading='lazy' src={perf} alt='Diagnóstico y banco de sangre' width={70} className='mx-auto' />
             <h3 className='text-primaryColor text-center py-4 uppercase'>Diagnóstico y banco de sangre</h3>
             <ul className="grid gap-3 md:gap-0 text-xs md:text-sm">
               <li className="flex font-extralight text-sm capitalize pb-1">agitadores de bolsa para extracción</li>

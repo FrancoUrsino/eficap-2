@@ -34,82 +34,82 @@ function Carousel() {
       <div>
         <Marquee direction="left" speed={100} delay={0.1}>
           <div className="my-10 mx-auto">
-            <Image src={img} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Pami" />
+            <Image loading="lazy" src={img} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Pami" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img1} width={900} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Hospital Italiano" />
+            <Image loading="lazy" src={img1} width={900} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Hospital Italiano" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img2} width={1800} className='mx-4 w-2/3 lg:w-full object-fill' alt="Logo Pricai" />
+            <Image loading="lazy" src={img2} width={1800} className='mx-4 w-2/3 lg:w-full object-fill' alt="Logo Pricai" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img3} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Tecan" />
+            <Image loading="lazy" src={img3} width={500} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Tecan" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img4} width={8000} className='w-full mx-auto object-fill' alt="Logo Hospital Garrahan" />
+            <Image loading="lazy" src={img4} width={8000} className='w-full mx-auto object-fill' alt="Logo Hospital Garrahan" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img5} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Hemocue" />
+            <Image loading="lazy" src={img5} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Hemocue" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img6} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Gilson" />
+            <Image loading="lazy" src={img6} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Gilson" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img7} width={350} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Starbene" />
+            <Image loading="lazy" src={img7} width={350} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Starbene" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img8} width={5000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Centralab" />
+            <Image loading="lazy" src={img8} width={5000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Centralab" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img9} width={400} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Fundación Favaloro Hospital Universitario" />
+            <Image loading="lazy" src={img9} width={400} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Fundación Favaloro Hospital Universitario" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img10} width={5000} className='mx-auto w-full object-fill' alt="Logo AATHI" />
+            <Image loading="lazy" src={img10} width={5000} className='mx-auto w-full object-fill' alt="Logo AATHI" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img11} width={800} className='mx-auto w-2/3 lg:w-4/5 object-fill' alt="Logo Bio-rad" />
+            <Image loading="lazy" src={img11} width={800} className='mx-auto w-2/3 lg:w-4/5 object-fill' alt="Logo Bio-rad" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img12} width={400} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Biosafe" />
+            <Image loading="lazy" src={img12} width={400} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Biosafe" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img13} width={8000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Diamed" />
+            <Image loading="lazy" src={img13} width={8000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Diamed" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img14} width={5000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Fundación Hemocentro" />
+            <Image loading="lazy" src={img14} width={5000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Fundación Hemocentro" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img15} width={800} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo AAHI" />
+            <Image loading="lazy" src={img15} width={800} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo AAHI" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img16} width={400} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Abbott" />
+            <Image loading="lazy" src={img16} width={400} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Abbott" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img17} width={3000} className='mx-4 w-full object-fill' alt="Logo NA-SA" />
+            <Image loading="lazy" src={img17} width={3000} className='mx-4 w-full object-fill' alt="Logo NA-SA" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img18} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Thermo Scientific" />
+            <Image loading="lazy" src={img18} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Thermo Scientific" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img19} width={350} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Cemic" />
+            <Image loading="lazy" src={img19} width={350} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Cemic" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img20} width={900} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Labsystems" />
+            <Image loading="lazy" src={img20} width={900} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Labsystems" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img21} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Grifols" />
+            <Image loading="lazy" src={img21} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Grifols" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img22} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Hospital Clínicas" />
+            <Image loading="lazy" src={img22} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Hospital Clínicas" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img23} width={250} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Conicet" />
+            <Image loading="lazy" src={img23} width={250} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Conicet" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img24} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Horiba" />
+            <Image loading="lazy" src={img24} width={450} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Horiba" />
           </div>
           <div className="my-10 mx-auto">
-            <Image src={img25} width={8000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Open Trades" />
+            <Image loading="lazy" src={img25} width={8000} className='mx-4 w-2/3 lg:w-4/5 object-fill' alt="Logo Open Trades" />
           </div>
         </Marquee>
       </div>

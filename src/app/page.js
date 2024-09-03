@@ -29,9 +29,9 @@ function page() {
         <h2 className='uppercase text-primaryColor text-3xl md:text-4xl pb-10 text-center md:text-start'>acerca de nosotros</h2>
         <div className='grid md:grid-cols-2 gap-3 justify-items-center md:justify-items-start'>
           <p className='lg:text-lg xl:text-2xl w-11/12 pb-6 md:pb-0'>CONTAMOS CON PROFESIONALES MATRICULADOS CON ASISTENCIA A CURSOS DE CAPACITACION TÉCNICA NACIONAL E INTERNACIONAL, CON OBTENCIÓN DE CERTIFICACIONES PARA INSTALAR, CONSERVAR Y REPARAR DISTINTOS TIPOS Y MODELOS DE EQUIPAMIENTOS EN ELECTROMEDICINA.</p>
-          <Image src={certificados} alt='certificados' width={360} className='md:w-[550px] lg:w-[500px] md:justify-self-center lg:justify-self-end' />
+          <Image loading='lazy' src={certificados} alt='certificados' width={360} className='md:w-[550px] lg:w-[500px] md:justify-self-center lg:justify-self-end' />
         </div>
-        <Image src={service} alt='oficina de trabajo' className='mt-6 w-full lg:h-80 object-cover' />
+        <Image loading='lazy' src={service} alt='oficina de trabajo' className='mt-6 w-full lg:h-80 object-cover' />
       </section>
       <section className='w-10/12 md:w-11/12 mx-auto my-20 pl-3'>
         <h2 className='uppercase text-primaryColor text-3xl md:text-4xl pb-10 text-center md:text-start'>sectores de trabajo</h2>
