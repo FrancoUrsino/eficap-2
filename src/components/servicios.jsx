@@ -41,9 +41,9 @@ export default function Component() {
           { title: "CALIBRACIONES", description: "Con uso de instrumentos patrón y entrega de certificados", span: "md:col-span-1" },
           { title: "DISERTACIONES Y CURSOS", description: "Conferencias de aprendizaje e información técnica presencial y online", span: "md:col-span-2 md:row-span-1" },
           { title: "AUDITORIAS", description: "Revisión de condiciones de trabajo de equipamientos y su funcionamiento", span: "md:col-span-2" },
-          { title: "ABONOS", description: "Con visitas mensuales, armado de planillas técnicas - manejo de normas ISO y Bioseguridad", span: "md:col-span-1" },
+          { title: "ABONOS", description: "Con visitas mensuales, armado de planillas técnicas - Manejo de normas ISO y Bioseguridad", span: "md:col-span-1" },
           { title: "PRESUPUESTO", description: "Visita técnica de diagnóstico a domicilio", span: "md:col-span-1" },
-          { title: "FIRMA PROFESIONAL", description: "Profesionales matriculados - gestión de calidad", span: "md:col-span-1" },
+          { title: "FIRMA PROFESIONAL", description: "Profesionales matriculados - Gestión de calidad", span: "md:col-span-1" },
           { title: "EMERGENCIAS", description: "Servicio full time con disponibilidad a viajes nacionales e internacionales", span: "md:col-span-1" },
         ].map((item, index) => (
           <Card key={index} className={`bg-white border-none ${item.span} rounded-2xl overflow-hidden shadow-[0_15px_30px_rgba(0,0,0,0.1)] transform-gpu hover:scale-[0.98] hover:shadow-[inset_0_10px_20px_rgba(0,0,0,0.1)] transition-all duration-300`}>

@@ -11,7 +11,7 @@ import { Card, CardContent } from './ui/card'
 function Trabajos() {
   const spaList = ["Luz pulsada - Criolipólisis", "Cavitadores - Ultrasonido", "Plasma rico en Plaquetas"]; // Ejemplo de array de items
   const infoList = ["Sofware", "Hardware", "Mantenimiento", "Armado de Equipamiento"]; // Ejemplo de array de items
-  const labList = ["Serología", "Biolóca molecular", "Patología", "Histocompatibilidad", "Citogenética"]; // Ejemplo de array de items
+  const labList = ["Serología", "Biológia molecular", "Patología", "Histocompatibilidad", "Citogenética"]; // Ejemplo de array de items
   const caliList = ["Pipetas mecánicas y Electrónicas", "Dispensers", "Termómetros", "Balanzas"]; // Ejemplo de array de items
   const List = ["agitadores de bolsa para extracción", "selladores de tubuladura", "contadores hematológicos y coagulometros", "fotómetros de hemoglobina", "incubadores secos y húmedos", "estufas de cultivo y secado digitales", "irradiadores de sangre", "aglutinoscópios y fuentes", "agitadores de plaquetas y plasma", "heladeras y freezers", "procesadores de células madre", "lavadores y lectores de microplaca", "robots automatizados y pipeteadores", "medidores de gases e iones en sangre", "procesadores de aféresis", "Microscopios"]; // Ejemplo de array de items
 
@@ -20,7 +20,7 @@ function Trabajos() {
       <div className='grid lg:grid-cols-3 gap-6 md:w-10/12 lg:w-full mx-auto'>
         <div className='workCards gap-6 justify-items-center lg:col-span-2'>
           <CardItems src={laptop} title="informática" items={infoList} />
-          <CardItems src={spa} title="cirugias estétitcas" items={spaList} />
+          <CardItems src={spa} title="estéticas" items={spaList} />
           <CardItems src={chem} title="laboratorios" items={labList} />
           <CardItems src={tester} title="calibraciones" items={caliList} />
         </div>
