@@ -1,113 +1,44 @@
-import Image from "next/image";
+import BentoDesign from '@/components/servicios'
+import Trabajos from '@/components/Trabajos'
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+import certificados from '@/assets/CERTIFICADOS.jpg'
+import service from '@/assets/FOTO_SERVICE.jpg'
 
-export default function Home() {
+function page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className='bg-slate-50 overflow-x-hidden'>
+      <div className='bg-black flex justify-evenly relative md:text-lg text-white top-14 md:top-12 uppercase'>
+        <Link href="tel:49244466">Teléfono: 4924-4466</Link>
+        <Link href="tel:1535253017">Urgencias: 153-525-3017</Link>
+      </div>
+      <section className=''>
+        <h1 className='title text-[7rem] md:text-[9rem] xl:text-[12rem] md:text-left font-light w-11/12 mx-auto text-center uppercase pt-32'>eficap</h1>
+        <h2 className='text-4xl md:text-2xl xl:text-3xl font-extralight mt-6 md:mt-0 md:pl-3 text-center md:text-left uppercase text-primaryColor w-11/12 mx-auto flex md:relative md:-top-10'>servicio técnico de electromedicina</h2>
+        <div className='my-32 md:mt-24 md:mb-40 w-10/12 md:w-1/2 xl:w-2/3 mx-auto md:mr-4 md:text-lg'>
+          <p>Fundamos nuestra empresa en el año 1997 pensando en que forma podríamos resultar útiles dentro de la Electromedicina y BioIngeniería en nuestro País y Latinoamerica.</p>
+          <p>Así entonces, logramos brindar servicios de Reparación, Mantenimiento Preventivo, Calibraciones, Manejo de Normativas de Calidad, Auditorías y Asistencia Informática en una amplia variedad de Instrumental Médico, Banco de Sangre, Diagnóstico, Laboratorios y Medicina Estética.</p>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      </section>
+      <section className='w-10/12 md:w-11/12 mx-auto'>
+        <h2 className='text-primaryColor text-3xl md:text-4xl uppercase pl-3 pb-10 text-center md:text-start'>servicios brindados</h2>
+        <BentoDesign />
+      </section>
+      <section className='w-10/12 md:w-11/12 mx-auto my-20 pl-3'>
+        <h2 className='uppercase text-primaryColor text-3xl md:text-4xl pb-10 text-center md:text-start'>acerca de nosotros</h2>
+        <div className='grid md:grid-cols-2 gap-3 justify-items-center md:justify-items-start'>
+          <p className='lg:text-lg xl:text-2xl w-11/12 pb-6 md:pb-0'>CONTAMOS CON PROFESIONALES MATRICULADOS CON ASISTENCIA A CURSOS DE CAPACITACION TÉCNICA NACIONAL E INTERNACIONAL, CON OBTENCIÓN DE CERTIFICACIONES PARA INSTALAR, CONSERVAR Y REPARAR DISTINTOS TIPOS Y MODELOS DE EQUIPAMIENTOS EN ELECTROMEDICINA.</p>
+          <Image src={certificados} alt='certificados' width={360} className='md:w-[550px] lg:w-[500px] md:justify-self-center lg:justify-self-end' />
+        </div>
+        <Image src={service} alt='oficina de trabajo' className='mt-6 w-full lg:h-80 object-cover' />
+      </section>
+      <section className='w-10/12 md:w-11/12 mx-auto my-20 pl-3'>
+        <h2 className='uppercase text-primaryColor text-3xl md:text-4xl pb-10 text-center md:text-start'>sectores de trabajo</h2>
+        <Trabajos />
+      </section>
     </main>
-  );
+  )
 }
+
+export default page
