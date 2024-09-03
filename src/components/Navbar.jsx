@@ -33,7 +33,7 @@ function Navbar() {
           <div className="flex items-center justify-between w-11/12 py-2 mx-auto md:block">
             <Link href="/"><Image loading='lazy' src={logo} alt={'Logo Eficap'} width={40} /></Link>
             <div className="md:hidden">
-              <button className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>
+              <button className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border" title='Boton del menu' onClick={() => setNavbar(!navbar)}>
                 {navbar ? (
                   <RiCloseLine className='text-white' />
                 ) : (

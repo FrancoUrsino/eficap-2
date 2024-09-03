@@ -11,7 +11,7 @@ export default function CardItems({ src, title, items }) {
       <ul className="grid gap-3 md:gap-0 text-xs md:text-sm">
         {items.map((item, index) => (
           <li key={index} className="flex">
-            <p className="font-extralight text-sm pb-1 capitalize">{item}</p>
+            <p className="font-light text-sm pb-1 capitalize">{item}</p>
           </li>
         ))}
       </ul>

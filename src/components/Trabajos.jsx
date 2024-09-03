@@ -30,22 +30,22 @@ function Trabajos() {
             <Image loading='lazy' src={perf} alt='Diagnóstico y banco de sangre' width={70} className='mx-auto' />
             <h3 className='text-primaryColor text-center py-4 uppercase'>Diagnóstico y banco de sangre</h3>
             <ul className="grid gap-3 md:gap-0 text-xs md:text-sm">
-              <li className="flex font-extralight text-sm capitalize pb-1">agitadores de bolsa para extracción</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">selladores de tubuladura</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">contadores hematológicos y coagulometros</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">fotómetros de hemoglobina</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">incubadores secos y húmedos</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">estufas de cultivo y secado digitales</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">irradiadores de sangre</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">aglutinoscópios y fuentes</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">agitadores de plaquetas y plasma</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">heladeras y freezers</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">procesadores de células madre</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">lavadores y lectores de microplaca</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">robots automatizados y pipeteadores</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">medidores de gases e iones en sangre</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">procesadores de aféresis</li>
-              <li className="flex font-extralight text-sm capitalize pb-1">Microscopios</li>
+              <li className="flex font-light text-sm capitalize pb-1">agitadores de bolsa para extracción</li>
+              <li className="flex font-light text-sm capitalize pb-1">selladores de tubuladura</li>
+              <li className="flex font-light text-sm capitalize pb-1">contadores hematológicos y coagulometros</li>
+              <li className="flex font-light text-sm capitalize pb-1">fotómetros de hemoglobina</li>
+              <li className="flex font-light text-sm capitalize pb-1">incubadores secos y húmedos</li>
+              <li className="flex font-light text-sm capitalize pb-1">estufas de cultivo y secado digitales</li>
+              <li className="flex font-light text-sm capitalize pb-1">irradiadores de sangre</li>
+              <li className="flex font-light text-sm capitalize pb-1">aglutinoscópios y fuentes</li>
+              <li className="flex font-light text-sm capitalize pb-1">agitadores de plaquetas y plasma</li>
+              <li className="flex font-light text-sm capitalize pb-1">heladeras y freezers</li>
+              <li className="flex font-light text-sm capitalize pb-1">procesadores de células madre</li>
+              <li className="flex font-light text-sm capitalize pb-1">lavadores y lectores de microplaca</li>
+              <li className="flex font-light text-sm capitalize pb-1">robots automatizados y pipeteadores</li>
+              <li className="flex font-light text-sm capitalize pb-1">medidores de gases e iones en sangre</li>
+              <li className="flex font-light text-sm capitalize pb-1">procesadores de aféresis</li>
+              <li className="flex font-light text-sm capitalize pb-1">Microscopios</li>
             </ul>
           </CardContent>
         </Card>
