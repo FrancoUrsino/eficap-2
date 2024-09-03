@@ -16,8 +16,8 @@ const Footer = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center md:justify-betweent">
               <Image loading='lazy' src={logo} alt="EFICAP" width={150} className='pt-3' />
           <div className='justify-self-center w-11/12 lg:justify-self-end'>
-            <p className="font-extralight text-primary-color text-sm lg:text-lg md:text-sm mb-2 text-center pt-10 md:pt-2">1997©EFICAP | All Rigths Reserved</p>
-            <p className="font-extralight text-primary-color text-sm lg:text-lg md:text-sm text-center ">Diseño y Desarrollo por <Link href="mailto:francooursinoo@gmail.com">Franco Ursino</Link></p>
+            <p className="font-normal text-primary-color text-sm lg:text-lg md:text-sm mb-2 text-center pt-10 md:pt-2">1997©EFICAP | All Rigths Reserved</p>
+            <p className="font-normal text-primary-color text-sm lg:text-lg md:text-sm text-center ">Diseño y Desarrollo por <Link href="mailto:francooursinoo@gmail.com">Franco Ursino</Link></p>
           </div>
           <div className="flex space-x-4 mt-8 md:my-auto">
               <Link href="mailto:eficap@eficap.com.ar" target="_blank"><Image loading='lazy' src={mail} alt='mail logo' width={30} /></Link>

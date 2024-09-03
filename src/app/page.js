@@ -15,7 +15,7 @@ function page() {
       </div>
       <section className=''>
         <h1 className='title text-[7rem] md:text-[9rem] xl:text-[12rem] md:text-left font-light w-11/12 mx-auto text-center uppercase pt-32'>eficap</h1>
-        <h2 className='text-4xl md:text-2xl xl:text-3xl font-extralight mt-6 md:mt-0 md:pl-3 text-center md:text-left uppercase text-primaryColor w-11/12 mx-auto flex md:relative md:-top-10'>servicio técnico de electromedicina</h2>
+        <h2 className='text-4xl md:text-2xl xl:text-3xl font-extralight mt-6 md:mt-0 md:pl-3 text-center md:text-left uppercase text-primaryColor w-11/12 mx-auto flex md:relative md:-top-10 [text-shadow:_0_0_3px_rgb(0_0_0_/_50%)]'>servicio técnico de electromedicina</h2>
         <div className='my-32 md:mt-24 md:mb-40 w-10/12 md:w-1/2 xl:w-2/3 mx-auto md:mr-4 md:text-lg'>
           <p>Fundamos nuestra empresa en el año 1997 pensando en que forma podríamos resultar útiles dentro de la Electromedicina y BioIngeniería en nuestro País y Latinoamerica.</p>
           <p>Así entonces, logramos brindar servicios de Reparación, Mantenimiento Preventivo, Calibraciones, Manejo de Normativas de Calidad, Auditorías y Asistencia Informática en una amplia variedad de Instrumental Médico, Banco de Sangre, Diagnóstico, Laboratorios y Medicina Estética.</p>
