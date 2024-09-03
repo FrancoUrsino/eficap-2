@@ -107,6 +107,7 @@ function Form() {
               <label htmlFor="clientName" className="ml-2 text-lg font-bold text-[#161616]">Nombre</label>
               <input
                 required
+                id='clientName'
                 onChange={handleName}
                 value={clientName}
                 name="user_name"
@@ -122,6 +123,7 @@ function Form() {
               <label htmlFor="clientInstitution" className="ml-2 text-lg font-bold text-[#161616]">Institución</label>
               <input
                 required
+                id='clientInstitution'
                 onChange={handleInstitution}
                 value={clientInstitution}
                 name="user_lastName"
@@ -137,6 +139,7 @@ function Form() {
               <label htmlFor="email" className="ml-2 text-lg font-bold text-[#161616]">Mail</label>
               <input
                 required
+                id='email'
                 onChange={handleEmail}
                 value={email}
                 name="user_email"
@@ -151,6 +154,7 @@ function Form() {
             <div>
               <label htmlFor="phone" className="ml-2 text-lg font-bold text-[#161616]">Teléfono</label>
               <input
+                id='phone'
                 onChange={handlePhone}
                 value={phone}
                 name="user_phone"
@@ -167,6 +171,7 @@ function Form() {
             <label htmlFor="messages" className="text-lg font-bold text-[#161616] ml-2">Dejanos tu consulta</label>
             <textarea
               required
+              id='messages'
               onChange={handleMessages}
               value={messages}
               name='message'

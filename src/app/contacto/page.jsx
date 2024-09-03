@@ -24,11 +24,11 @@ function page() {
               <p className='md:font-light text-sm md:text-lg pb-4'>Pueden encontrarnos de lunes a viernes de 9 a 18hs</p>
               <div className='flex mb-6 lg:w-9/12'>
                 <p>Distrito Tecnológico<br/>Parque Patricios<br/>CABA</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d105050.0459255371!2d-58.401221!3d-34.634142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1a1d4aa3c7%3A0x6861764e9bda7a41!2sEFICAP%20%3A%20Servicio%20T%C3%A9cnico%20y%20Calibraci%C3%B3n%20de%20Pipetas!5e0!3m2!1ses-419!2sar!4v1725239542462!5m2!1ses-419!2sar" width="200" height="130" className="mx-auto" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d105050.0459255371!2d-58.401221!3d-34.634142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1a1d4aa3c7%3A0x6861764e9bda7a41!2sEFICAP%20%3A%20Servicio%20T%C3%A9cnico%20y%20Calibraci%C3%B3n%20de%20Pipetas!5e0!3m2!1ses-419!2sar!4v1725239542462!5m2!1ses-419!2sar" width="200" height="130" className="mx-auto" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Oficinas de CABA'></iframe>
               </div>
               <div className='flex my-3 lg:w-9/12'>
                 <p>Ciudad de La Plata<br/>Provincia de Bs As</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26172.275895992512!2d-57.95304900000001!3d-34.91813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e631b2b8756d%3A0xa55653c9398516b6!2sGabiluz!5e0!3m2!1ses-419!2sar!4v1725239625511!5m2!1ses-419!2sar" width="200" height="130" className="mx-auto" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26172.275895992512!2d-57.95304900000001!3d-34.91813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e631b2b8756d%3A0xa55653c9398516b6!2sGabiluz!5e0!3m2!1ses-419!2sar!4v1725239625511!5m2!1ses-419!2sar" width="200" height="130" className="mx-auto" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Oficinas de La plata'></iframe>
               </div>
             </div>
           </section>
